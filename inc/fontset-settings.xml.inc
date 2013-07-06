@@ -6,7 +6,7 @@ ls `python -c "import mapnik;print mapnik.fontscollectionpath"`-->
   <Font face-name="TakaoGothic Regular" />
 </FontSet>
 <FontSet name="bold-fonts">
-  <Font face-name="TakaoGothic Regula" />
+  <Font face-name="TakaoGothic Regular" />
 </FontSet>
 <FontSet name="oblique-fonts">
   <Font face-name="TakaoGothic Regular" />
