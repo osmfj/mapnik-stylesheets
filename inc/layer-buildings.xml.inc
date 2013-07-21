@@ -18,7 +18,7 @@
     <Rule>
       <Filter>[amenity] = 'place_of_worship'</Filter>
       &maxscale_zoom15;
-      <PolygonSymbolizer fill-opacity="0.9" fill="#aaa"/>
+      <PolygonSymbolizer fill-opacity="0.9" fill="linen"/>
       <LineSymbolizer stroke="#111" stroke-width="0.3"/>
     </Rule>
 </Style>
