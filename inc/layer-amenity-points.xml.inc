@@ -212,6 +212,11 @@
       <PointSymbolizer file="&symbols;/place_of_worship3.p.16.png" allow-overlap="false" placement="interior"/>
      </Rule>
      <Rule>
+       &maxscale_zoom17;
+       <Filter>[amenity]='public_bath' or [amenity]='spa'</Filter>
+       <PointSymbolizer file="&symbols;/onsen.png" placement="interior"/>
+     </Rule>
+     <Rule>
       &maxscale_zoom17;
       <Filter>[amenity]='police'</Filter>
       <PointSymbolizer file="&symbols;/police.p.16.png" placement="interior"/>
