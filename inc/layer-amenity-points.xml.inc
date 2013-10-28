@@ -162,12 +162,12 @@
       <PointSymbolizer file="&symbols;/museum.p.16.png" placement="interior"/>
     </Rule>
     <Rule>
-      &maxscale_zoom15;
+      &maxscale_zoom17;
       <Filter>[amenity] = 'parking' and ([access] = 'public' or [access] = 'yes' or not [access] != '')</Filter>
       <PointSymbolizer file="&symbols;/parking.p.12.png" allow-overlap="false" placement="interior"/>
     </Rule>
     <Rule>
-      &maxscale_zoom16;
+      &maxscale_zoom18;
       <Filter>[amenity] = 'parking' and ([access] != '' and not [access] = 'public' and not [access] = 'yes')</Filter>
       <PointSymbolizer file="&symbols;/parking_private.p.12.png" allow-overlap="false" placement="interior"/>
     </Rule>
