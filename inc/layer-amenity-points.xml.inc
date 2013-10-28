@@ -217,6 +217,11 @@
        <PointSymbolizer file="&symbols;/onsen.png" placement="interior"/>
      </Rule>
      <Rule>
+       &maxscale_zoom17;
+       <Filter>[amenity]='vending_machine'</Filter>
+       <PointSymbolizer file="&symbols;/vending_machine.png" placement="interior"/>
+     </Rule>
+     <Rule>
       &maxscale_zoom17;
       <Filter>[amenity]='police'</Filter>
       <PointSymbolizer file="&symbols;/police.p.16.png" placement="interior"/>
