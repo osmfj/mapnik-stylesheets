@@ -140,6 +140,26 @@
       <TextSymbolizer size="11" fill="#777777" fontset-name="book-fonts" halo-radius="1" wrap-width="0">[name]</TextSymbolizer>
     </Rule>
 </Style>
+<Style name="quarter">
+    <Rule>
+      <Filter>[place] = 'quarter'</Filter>
+      &maxscale_zoom15;
+      &minscale_zoom16;
+      <TextSymbolizer size="8" fill="#000" fontset-name="book-fonts" halo-radius="1" wrap-width="0">[name]</TextSymbolizer>
+    </Rule>
+    <Rule>
+      <Filter>[place] = 'quarter'</Filter>
+      &maxscale_zoom17;
+      <TextSymbolizer size="11" fill="#777777" fontset-name="book-fonts" halo-radius="1" wrap-width="0">[name]</TextSymbolizer>
+    </Rule>
+</Style>
+<Style name="neighbourhood">
+    <Rule>
+      <Filter>[place] = 'neighbourhood'</Filter>
+      &maxscale_zoom17;
+      <TextSymbolizer size="11" fill="#777777" fontset-name="book-fonts" halo-radius="1" wrap-width="0">[name]</TextSymbolizer>
+    </Rule>
+</Style>
 
 <Layer name="placenames-large" status="on" srs="&osm2pgsql_projection;">
     <StyleName>country</StyleName>
@@ -181,11 +201,13 @@
     <StyleName>suburb</StyleName>
     <StyleName>village</StyleName>
     <StyleName>hamlet</StyleName>
+    <StyleName>quarter</StyleName>
+    <StyleName>neighbourhood</StyleName>
     <Datasource>
       <Parameter name="table">
       (select way,place,name
       from &prefix;_point
-      where place in ('suburb','village','large_village','hamlet','locality','isolated_dwelling','farm')
+      where place in ('suburb','village','large_village','hamlet','locality','isolated_dwelling','farm','quarter','neighbourhood')
       ) as placenames</Parameter>
       &datasource-settings;
     </Datasource>
