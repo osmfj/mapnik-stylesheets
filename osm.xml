@@ -233,18 +233,18 @@
     <Rule>
       &maxscale_zoom11;
       &minscale_zoom11;
-      <TextSymbolizer size="9" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="1" wrap-width="12">[ref]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="2" wrap-width="12">[ref]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom12;
       &minscale_zoom14;
-      <TextSymbolizer size="9" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="1" wrap-width="12">[ref]</TextSymbolizer>
-      <TextSymbolizer size="8" fill="#6666ff" dy="-8" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="1" wrap-width="2" wrap-character=";">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="2" wrap-width="12">[ref]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#6666ff" dy="-8" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="2" wrap-width="2" wrap-character=";">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom15;
-      <TextSymbolizer size="12" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="1" wrap-width="12">[ref]</TextSymbolizer>
-      <TextSymbolizer size="11" fill="#6666ff" dy="-10" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="1" wrap-width="2" wrap-character=";">[name]</TextSymbolizer>
+      <TextSymbolizer size="13" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="2" wrap-width="12">[ref]</TextSymbolizer>
+      <TextSymbolizer size="12" fill="#6666ff" dy="-10" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="2" wrap-width="2" wrap-character=";">[name]</TextSymbolizer>
     </Rule>
 </Style>
 <Style name="text">
