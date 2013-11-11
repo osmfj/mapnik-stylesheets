@@ -177,33 +177,33 @@
       <LineSymbolizer stroke="#b5d0d0" stroke-width="1"/>
     </Rule>
     <Rule>
-      <Filter>[waterway]='river' and [tunnel] = 'yes' or [tunnel]='culvert'</Filter>
+      <Filter>[waterway]='river' and ([tunnel] = 'yes' or [tunnel]='culvert')</Filter>
       &maxscale_zoom14;
       &minscale_zoom14;
-      <LineSymbolizer stroke="#b5d0d0" stroke-width="6" stroke-dasharray="4,4"/>
-      <LineSymbolizer stroke="white" stroke-width="4"/>
+      <LineSymbolizer stroke="#b5d0d0" stroke-width="4"/>
+      <LineSymbolizer stroke="white" stroke-width="4" stroke-dasharray="2,2"/>
       <TextSymbolizer size="10" fill="#6699cc" placement="line" minimum-distance="200" fontset-name="book-fonts" halo-radius="2" allow-overlap="true">[name]</TextSymbolizer>
     </Rule><Rule>
-      <Filter>[waterway]='river' and [tunnel] = 'yes' or [tunnel]='culvert'</Filter>
+      <Filter>[waterway]='river' and ([tunnel] = 'yes' or [tunnel]='culvert')</Filter>
       &maxscale_zoom15;
       &minscale_zoom16;
-      <LineSymbolizer stroke="#b5d0d0" stroke-width="7" stroke-dasharray="4,4"/>
-      <LineSymbolizer stroke="white" stroke-width="4"/>
+      <LineSymbolizer stroke="#b5d0d0" stroke-width="6"/>
+      <LineSymbolizer stroke="white" stroke-width="6" stroke-dasharray="2,2"/>
       <TextSymbolizer size="10" fill="#6699cc" placement="line" minimum-distance="200" fontset-name="book-fonts" halo-radius="2" allow-overlap="true">[name]</TextSymbolizer>
     </Rule>
     <Rule>
-      <Filter>[waterway]='river' and [tunnel] = 'yes' or [tunnel]='culvert'</Filter>
+      <Filter>[waterway]='river' and ([tunnel] = 'yes' or [tunnel]='culvert')</Filter>
       &maxscale_zoom17;
       &minscale_zoom17;
-      <LineSymbolizer stroke="#b5d0d0" stroke-width="11" stroke-dasharray="4,4"/>
-      <LineSymbolizer stroke="white" stroke-width="7"/>
+      <LineSymbolizer stroke="#b5d0d0" stroke-width="10"/>
+      <LineSymbolizer stroke="white" stroke-width="10" stroke-dasharray="2,2"/>
       <TextSymbolizer size="10" fill="#6699cc" placement="line" minimum-distance="200" fontset-name="book-fonts" halo-radius="2" allow-overlap="true">[name]</TextSymbolizer>
     </Rule>
     <Rule>
-      <Filter>[waterway]='river' and [tunnel] = 'yes' or [tunnel]='culvert'</Filter>
+      <Filter>[waterway]='river' and ([tunnel] = 'yes' or [tunnel]='culvert')</Filter>
       &maxscale_zoom18;
-      <LineSymbolizer stroke="#b5d0d0" stroke-width="13" stroke-dasharray="4,4"/>
-      <LineSymbolizer stroke="white" stroke-width="9"/>
+      <LineSymbolizer stroke="#b5d0d0" stroke-width="10"/>
+      <LineSymbolizer stroke="white" stroke-width="10" stroke-dasharray="2,2"/> 
       <TextSymbolizer size="10" fill="#6699cc" placement="line" minimum-distance="200" fontset-name="book-fonts" halo-radius="2" allow-overlap="true">[name]</TextSymbolizer>
     </Rule>
     <Rule>
