@@ -113,6 +113,16 @@
     </Rule>
     <Rule>
       &maxscale_zoom17;
+      <Filter>[amenity]='doctor' or [amenity]='doctors'</Filter>
+      <PointSymbolizer file="&symbols;/doctor_12.png" placement="interior"/>
+    </Rule>
+    <Rule>
+      &maxscale_zoom17;
+      <Filter>[amenity]='dentist'</Filter>
+      <PointSymbolizer file="&symbols;/dentist_12.png" placement="interior"/>
+    </Rule>
+    <Rule>
+      &maxscale_zoom17;
       <Filter>[tourism]='hostel'</Filter>
       <PointSymbolizer file="&symbols;/hostel.p.20.png" placement="interior"/>
     </Rule>

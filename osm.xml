@@ -466,12 +466,22 @@
     <Rule>
       <Filter>[amenity] = 'hospital'</Filter>
       &maxscale_zoom16;
-      <TextSymbolizer size="8" fill="#da0092" dy="10" fontset-name="book-fonts" halo-radius="2" wrap-width="24" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#da0092" dy="10" fontset-name="book-fonts" halo-radius="2" wrap-width="24" placement="interior">[name]</TextSymbolizer>
+    </Rule>
+    <Rule>
+      <Filter>[amenity] = 'doctor' or [amenity]='doctors'</Filter>
+      &maxscale_zoom17;
+      <TextSymbolizer size="9" fill="#000000" dy="10" fontset-name="book-fonts" halo-radius="2" wrap-width="24" placement="interior">[name]</TextSymbolizer>
+    </Rule>
+    <Rule>
+      <Filter>[amenity] = 'dentist'</Filter>
+      &maxscale_zoom17;
+      <TextSymbolizer size="9" fill="#000000" dy="10" fontset-name="book-fonts" halo-radius="2" wrap-width="24" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity] = 'pharmacy'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="8" fill="#da0092" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="12" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#da0092" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="12" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[shop]='bakery' or [shop]='clothes' or [shop]='fashion' or [shop]='convenience' or [shop]='doityourself' or [shop]='hairdresser' or [shop]='butcher' or [shop]='car' or [shop]='car_repair' or [shop]='bicycle' or [shop]='florist'</Filter>
